@@ -32,10 +32,13 @@ Model Tuning
 ## Results
 
 The baseline of 3 machine learning methods: Logistic Regression, Decision Tree Classifier and Random Forest Classifier.
-LogisticRegression	DecisionTreeClassifier	RandomForestClassifier
-f1_test	0.584178	0.680872	0.584178
-pred_time	0.090935	0.107016	0.119382
-train_time	188.624084	186.098581	215.523401
+
+| Model Name             | F1-score   | Training Time(s)  |
+| ---------------------- | ---------- | ----------------- |
+| LogisticRegression     | 0.584178   | 188.624084        |
+| DecisionTree           | 0.680872   | 186.098581        |
+| RandomForestClassifier | 0.584178   | 215.523401        |
+
 
 I further tuned `Decision Tree` and `LogisticRegression` and the result is as follows:
 
