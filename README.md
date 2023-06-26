@@ -28,3 +28,25 @@ Model Tuning
 - PySpark ML
 - Pyspark SQL
 - Matplotlib for visualization.
+
+## Results
+
+The baseline of 3 machine learning methods: Logistic Regression, Decision Tree Classifier and Random Forest Classifier.
+LogisticRegression	DecisionTreeClassifier	RandomForestClassifier
+f1_test	0.584178	0.680872	0.584178
+pred_time	0.090935	0.107016	0.119382
+train_time	188.624084	186.098581	215.523401
+
+I further tuned `Decision Tree` and `LogisticRegression` and the result is as follows:
+
+| Model Name         | F1-score | Training Time(s) |
+| ------------------ | -------- | ---------------- |
+| LogisticRegression | 0.7058   | 3304.3561        |
+| DecisionTree       | 0.7647   | 1257.4217        |
+
+
+## Other deliverables
+Summary and some flections on this project: [Medium Post](https://charlineli.medium.com/spark-project-for-churn-prediction-ddbcff384054).
+
+## References
+Dataset provided by [Udacity](https://cn.udacity.com/).
